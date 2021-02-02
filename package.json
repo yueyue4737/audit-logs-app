@@ -1,0 +1,29 @@
+{
+  "name": "audit-logs-app",
+  "version": "1.0.0",
+  "description": "A Node.js API with Express, Serverless and Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yueyue4737/audit-logs-app.git"
+  },
+  "keywords": [
+    "serverless",
+    "lambda"
+  ],
+  "author": "sophie-liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yueyue4737/audit-logs-app/issues"
+  },
+  "homepage": "https://github.com/yueyue4737/audit-logs-app#readme",
+  "dependencies": {
+    "aws-serverless-express": "^3.4.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
